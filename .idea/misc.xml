@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Workspaces/Android/StudyProject/app/src/main/res/layout/activity_main.xml" value="0.18489583333333334" />
+        <entry key="..\:/Workspaces/Android/StudyProject/app/src/main/res/layout/fragment_live_data.xml" value="0.19322916666666667" />
+        <entry key="..\:/Workspaces/Android/StudyProject/app/src/main/res/layout/fragment_test_live_data.xml" value="0.17864583333333334" />
         <entry key="..\:/Workspaces/StudyProject/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
       </map>
     </option>
