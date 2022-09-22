@@ -1,5 +1,6 @@
 package com.example.wu.studyproject
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -8,6 +9,7 @@ import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.Transformations
+import com.example.wu.studyproject.activity.NetActivity
 import com.example.wu.studyproject.databinding.ActivityMainBinding
 import com.example.wu.studyproject.fragment.TestLiveDataFragment
 
@@ -80,6 +82,12 @@ class MainActivity : AppCompatActivity() {
             Log.i("mediatorLiveData", "one $it ")
             mediator.value="$it"
         })
+
+
+        binding.btnEnterNet.setOnClickListener {
+            val intent = Intent(this@MainActivity,NetActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
